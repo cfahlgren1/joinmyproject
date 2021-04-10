@@ -3,3 +3,4 @@ django-cockroachdb==3.2.*
 psycopg2
 django-environ
 djangorestframework
+django-jazzmin
