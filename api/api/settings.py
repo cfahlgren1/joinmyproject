@@ -43,7 +43,7 @@ INTERNAL_APPS = [
     'api.apps.search',
     'api.apps.projects',
 ]
-EXTERNAL_APPS = []
+EXTERNAL_APPS = ['rest_framework', ]
 
 INSTALLED_APPS = INTERNAL_APPS + EXTERNAL_APPS
 
@@ -87,6 +87,15 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
