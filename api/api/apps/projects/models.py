@@ -11,3 +11,6 @@ class Project(models.Model):
     technologies = models.CharField(max_length=200)
     description = models.CharField(max_length=500)
     project_url = models.URLField()
+
+    def __str__(self):
+        return (self.name + ' - ' + str(self.start_date))
