@@ -6,26 +6,7 @@ import "./ProjectCardDeck.css";
 const ProjectCardDeck = () => {
   return (
     <Container>
-      <CardColumns>
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-      </CardColumns>
+      <CardColumns></CardColumns>
     </Container>
   );
 };
