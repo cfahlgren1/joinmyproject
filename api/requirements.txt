@@ -1,7 +1,8 @@
 Django==3.2
 django-cockroachdb==3.2.*
 psycopg2
-django-environ
 djangorestframework
 django-jazzmin
 django-cors-headers
+django-dotenv
+django-environ
