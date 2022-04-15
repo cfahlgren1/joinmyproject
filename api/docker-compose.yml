@@ -1,9 +1,9 @@
 version: "3.7"
 services:
-  web:
+  projects-backend:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python manage.py runserver 0.0.0.0:3333
     volumes:
       - .:/code
     ports:
-      - "8000:8000"
+      - "3333:3333"

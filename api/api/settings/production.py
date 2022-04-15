@@ -2,7 +2,7 @@ from .base import *
 
 DEBUG = False
 
-ALLOWED_HOSTS += ['joinmyproject.calebfahlgren.com']
+ALLOWED_HOSTS += ['projects.calebfahlgren.com']
 
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
